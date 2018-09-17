@@ -64,6 +64,18 @@
     .sectThree {
       background-image: url("comp.jpg");
     }
+      
+      .ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
     
     </style>
   </head>
@@ -75,7 +87,7 @@
   
   <div class="sect sectOne">  </div>
   <div class="subSection">
-  <h1> About Me </h1>
+  <h1 class="ml12"> <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span> <span>M</span><span>e</span> </h1>
   <p>I am a 17 year old High School Senior born and raised in Fort Collins, Colorado.</p>
                   <p>Right now I am currently an Intern at <a href="https://dashstrap.com/"> Dashstrap</a></p>
                   <p>as well as a Delivery Driver. I have always been obsessed with Computers, first starting </p>
@@ -96,5 +108,36 @@
   <p><b>Case</b> - NZXT - S340 (White) ATX Mid Tower Case</p>
   </div>
   <div class="sect sectThree"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+      $('.ml12').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: function(el, i) {
+      return 500 + 30 * i;
+    }
+  }).add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: function(el, i) {
+      return 100 + 30 * i;
+    }
+  });
+      
+      
+    </script>
   </body>
 </html>
