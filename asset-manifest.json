@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/jayminwest.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/jayminwest.github.io/static/js/main.505e7368.js",
+    "main.css": "/jayminwest.github.io/static/css/main.77aef24b.css",
+    "main.js": "/jayminwest.github.io/static/js/main.7d03aa8b.js",
     "static/js/787.5a84dfd5.chunk.js": "/jayminwest.github.io/static/js/787.5a84dfd5.chunk.js",
     "static/media/logo.svg": "/jayminwest.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/github-icon.svg": "/jayminwest.github.io/static/media/github-icon.4bfdb82fd39c519d92c6057644d597ce.svg",
     "index.html": "/jayminwest.github.io/index.html",
-    "main.f855e6bc.css.map": "/jayminwest.github.io/static/css/main.f855e6bc.css.map",
-    "main.505e7368.js.map": "/jayminwest.github.io/static/js/main.505e7368.js.map",
+    "static/media/youtube-icon.svg": "/jayminwest.github.io/static/media/youtube-icon.10dad78da3ad68332e3217821a732543.svg",
+    "static/media/linkedin-icon.svg": "/jayminwest.github.io/static/media/linkedin-icon.033b1683dcd2583d7ff2c6ce56160dac.svg",
+    "main.77aef24b.css.map": "/jayminwest.github.io/static/css/main.77aef24b.css.map",
+    "main.7d03aa8b.js.map": "/jayminwest.github.io/static/js/main.7d03aa8b.js.map",
     "787.5a84dfd5.chunk.js.map": "/jayminwest.github.io/static/js/787.5a84dfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.505e7368.js"
+    "static/css/main.77aef24b.css",
+    "static/js/main.7d03aa8b.js"
   ]
 }
