@@ -1,0 +1,55 @@
+.projects-section {
+    margin: 25% 0 0 0; /* Adjust as needed */
+}
+
+.projects-section h2 {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #ee596a;
+    color: white;
+    display: inline-block; /* This ensures the background color only covers the text */
+    padding: 10px 20px; /* Adjust as needed for spacing */
+    border-radius: 5px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    margin-bottom: 15px;
+}
+
+.project-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-item a:hover {
+    background-color: #0056b3;
+}

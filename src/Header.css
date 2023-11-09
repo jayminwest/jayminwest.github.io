@@ -1,0 +1,46 @@
+.header{
+    background: white;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-content{
+    display: flex;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 1%;
+  }
+  
+  .social-icons{
+    margin-top: auto;
+  }
+  
+  .social-icons a{
+    margin: 0 15px;
+  }
+  
+  .social-icons img{
+    width: 20%;
+    height: 20%;
+  }
+  
+  .header {
+    margin-bottom: 2%; /* Adjust as needed */
+    position: relative;
+  }
+
+  .line {
+    position: absolute;
+    left: 25%;
+    top: 48%;
+    width: 50%;
+    height: 5px;
+    background-color: #333; 
+  }

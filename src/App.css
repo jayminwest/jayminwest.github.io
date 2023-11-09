@@ -1,71 +1,17 @@
-.App {
-  text-align: center;
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Roboto', sans-serif; /* Use the chosen font here */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.header{
-  background: white;
-  padding: 80px;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-content{
-  display: flex;
-  align-items: center;
-}
-
-.header h1 {
-  font-size: 2rem;
-  color: black;
-  margin: 0;
-}
-
-.social-icons{
-  margin-top: auto;
-}
-
-.social-icons a{
-  margin: 0 10px;
-}
-
-.social-icons img{
-  width: 40px;
-  height: 40px;
+/* Add font-family to specific elements if needed */
+.header h1,
+.intro-section name,
+.intro-section title,
+.intro-section location,
+.projects-section h2,
+.project-item h3,
+.project-item p,
+.project-item a {
+  font-family: 'Roboto', sans-serif; /* Use the chosen font here */
 }
