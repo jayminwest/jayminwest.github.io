@@ -7,7 +7,7 @@
     text-align: left;
     margin-bottom: 20px;
     background-color: #ee596a;
-    color: white;
+    color: rgb(0, 0, 0);
     display: inline-block; /* This ensures the background color only covers the text */
     padding: 10px 20px; /* Adjust as needed for spacing */
     border-radius: 5px;
